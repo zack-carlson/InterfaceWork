@@ -18,7 +18,7 @@ class CrmServiceProvider extends ServiceProvider
     public function register()
     {
         //
-        $this->app->bind(Crm::class, Dynamics::class);
+        $this->app->bind(Crm::class, Salesforce::class);
     }
 
     /**
